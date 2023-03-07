@@ -1,0 +1,679 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope",cursive;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: #6663e9;
+  color: #ffffff;
+  font-weight: 750;
+  font-size: 17px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+body {
+  background-color: #f6f8fa;
+}
+
+header {
+  background-image: linear-gradient(#00000080, #00000080),
+    url("assets/mainBackground.png");
+  background-position: center;
+  background-size: cover;
+  height: 125vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* Navigation */
+nav {
+  display: flex;
+  padding: 25px 0;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+nav img {
+  height: 46px;
+  width: 122px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  font-size: 18px;
+  margin-right: 50px;
+  color: #ffffff;
+}
+hr {
+  margin: 0 100px;
+}
+
+
+header div {
+  margin-left: 150px;
+  margin-top: 85px;
+  color: #ffffff;
+  
+}
+
+header div h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+header div p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  font-weight: 500;
+  width: 408px;
+}
+/* designing the logos section*/
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  background-color: #fff;
+  margin: 0 35px;
+  bottom: 100px;
+  height: 190px;
+  border-radius: 30px;
+}
+
+.logos img {
+  width: 155px;
+  height: 37px;
+}
+/* designing the wrapper section  */
+.cards-wrapper h1 {
+  text-align: center;
+  letter-spacing: 0.01em;
+  font-weight: 800;
+  font-size: 62px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 50px;
+  position: relative;
+}
+.card {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  flex-basis: 30%;
+  justify-content: center;  
+  position: relative;
+}
+.wrapper div:nth-child(2) {
+  margin-top: 50px;
+}
+.wrapper div:nth-child(3) {
+  margin-top: 100px;
+}
+.wrapper div:nth-child(4) {
+  margin-top: 160px;
+}
+.wrapper div:nth-child(5) {
+  margin-top: 100px;
+}
+.wrapper div:nth-child(6) {
+  margin-top: 40px;
+}
+.wrapper div:nth-child(7) {
+  margin-top: 40px;
+}
+.wrapper div:nth-child(8) {
+  margin-top: 100px;
+}
+.wrapper div:nth-child(9) {
+  margin-top: 160px;
+}
+
+.card img {
+  width: 365px;
+  height: 400px;
+  border-radius: 18px;
+}
+/* designing the property card */
+.card-box {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: space-between;
+  width: 326px;
+  height: 121px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 120px #3a564e33;
+  bottom: -60px;
+  padding: 15px 20px;
+
+}
+
+.card-box button {
+  font-weight: 750;
+  font-size: 16px;
+  width: 115px;
+  height: 50px;
+}
+.card-box div h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-box div p {
+  font-weight: 800;
+  font-size: 20px;
+  color: #6663e8;
+  text-shadow: 0px 4px 60px #0000000d;
+}
+/* designing for first feature */
+.first-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.first-feature div {
+  width: 50%;
+}
+
+.first-feature div:first-child img:first-child {
+  position: absolute;
+  left: -80px;
+  z-index: -1;
+  width: 726px;
+  height: 456px;
+}
+
+.first-feature div:first-child img:last-child {
+  position: relative;
+  width: 405px;
+  height: 405px;
+  border-radius: 51px;
+  bottom: 55px;
+  left: 110px;
+}
+.first-feature h1 {
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+}
+
+.first-feature p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #585c65;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+
+.first-feature button {
+  font-weight: 700;
+}
+.second-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.second-feature div {
+  width: 50%;
+}
+
+.second-feature div:last-child{
+    position: relative;
+}
+
+.second-feature div:last-child img:first-child {
+  position: absolute;
+  right: 0;
+  width: 726px;
+  height: 456px;
+  bottom: -220px;
+}
+
+.second-feature div:last-child img:last-child {
+  position: absolute;
+  width: 405px;
+  height: 405px;
+  border-radius: 51px;
+  right: 135px;
+  bottom: -110px;
+}
+
+.second-feature div:first-child {
+  padding: 0 50px;
+}
+
+.second-feature div:first-child h1 {
+  width: 90%;
+  font-weight: 800;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  margin-bottom: 30px;
+}
+.second-feature p {
+  font-weight: 500;
+  font-size: 18px;
+  color: #585c65;
+  margin-bottom: 40px;
+  max-width: 80%;
+}
+/* designing the newsletter */
+.newsletter {
+  margin: 100px 70px;
+  background: #6663e9;
+  box-shadow: 0px 4px 60px #0000000d;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 70px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.newsletter h1 {
+  font-weight: 800;
+  font-size: 60px;
+}
+
+.newsletter p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 55%;
+}
+
+/* designing the E-mail form */
+.newsletter form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.newsletter form div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #5654d1;
+  border-radius: 40px;
+  width: 468px;
+  height: 61px;
+  padding: 0 20px;
+}
+
+.newsletter form input {
+  background-color: transparent;
+  border: none;
+}
+
+.newsletter form button {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px #0000000d;
+  border-radius: 40px;
+  width: 174px;
+  height: 61px;
+  color: #6663e9;
+}
+.newsletter form button:hover {
+  cursor: pointer;
+  background-color:#03021a ;
+}
+
+/* designing the footer section */
+footer {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 100px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+footer div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer div:first-child img {
+  width: 150px;
+}
+
+footer div:first-child div img {
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+}
+
+footer div:first-child p {
+  width: 323px;
+  font-weight: 400;
+  font-size: 20px;
+}
+/* designing the different pages links */
+.links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul li a {
+  color: black;
+}
+
+.footer-links ul li:first-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+.footer-links ul li{
+  margin-bottom: 25px;
+}
+
+/* ---CSS for small size screen--- */
+@media screen and (max-width: 600px) {
+  body {
+    background:fixed;
+    background-color: rgb(0, 0, 0);
+  }
+  header {
+    background-image: linear-gradient(#00000080, #00000080),
+      url("assets/mainBackground.png");
+    background-position: center;
+    background-size: cover;
+    background-position: fixed;
+    height: 80vh;
+    background-repeat: no-repeat;
+    position:relative;
+  }
+  button {
+    background: #6663e9;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+  }
+  nav {
+    display: flex;
+    padding:10px 0;
+    align-items: center;
+    justify-content:space-around;
+  }
+  nav img {
+    height: 20px;
+    width: 70px;
+  }
+  
+  nav ul li a {
+    align-items: center;
+    font-size: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+  }
+  hr {
+   margin: 0 100px;
+  }
+  header div h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  header div p {
+    font-size: 12px;
+    font-weight: 300;
+    width: 300px;
+  }
+  /* designing the logos section*/
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  position:sticky;
+  background-color: #fff;
+  margin: 0 20px; 
+  bottom: 40px;
+  height: 50px;
+  border-radius: 15px;
+
+}
+
+.logos img {
+  width: 30px;
+  height: 20px;
+}
+.cards-wrapper h1 {
+  font-weight: 400;
+  font-size: 42px;
+ color: #fff;
+}
+.wrapper {
+  gap: 10px;
+  margin-top: 40px;
+  position: relative;
+}
+.card {
+  flex-basis: 20%;
+}
+.card img {
+  width: 365px;
+  height: 400px;
+  border-radius: 18px;
+}
+/* designing the property card */
+.card-box {
+  width: 226px;
+  height: 85px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 120px #3a564e33;
+  bottom: -60px;
+  padding: 15px 20px;
+}
+.card-box button {
+  font-weight: 550;
+  font-size: 12px;
+  width: 95px;
+  height: 40px;
+}
+.first-feature div:first-child img:first-child {
+  position: absolute;
+  left: -40px;
+  z-index: -1;
+  width: 226px;
+  height: 150px;
+}
+.first-feature div:first-child img:last-child {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 30px;
+  bottom: 45px;
+  left: 20px;
+} 
+.first-feature h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+  color:white;
+}
+
+.first-feature p {
+  font-weight: 200;
+  font-size: 12px;
+  color: #585c65;
+  margin-left:10px;
+  margin-bottom: 20px;
+  max-width: 40%;
+}
+
+.first-feature button {
+  font-weight: 400;
+}
+.second-feature {
+  margin-top: 50px;
+}
+.second-feature div:last-child img:first-child {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  height: 180px;
+  bottom: -80px;
+}
+
+.second-feature div:last-child img:last-child {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 30px;
+  right: 70px;
+  bottom: -40px;
+}
+
+.second-feature div:first-child {
+  padding: 0 10px;
+}
+
+.second-feature div:first-child h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  margin-bottom: 15px;
+  color:white;
+}
+.second-feature p {
+  font-weight: 200;
+  font-size: 12px;
+  color: #585c65;
+  margin-bottom: 20px;
+  max-width: 40%;
+}
+/* designing the newsletter */
+.newsletter {
+  margin: 80px 50px;
+  background: #6663e9;
+  box-shadow: 0px 4px 40px #0000000d;
+  border-radius: 20px;
+}
+.newsletter h1 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.newsletter p {
+  font-weight: 200;
+  font-size: 10px;
+  width: 25%;
+}
+
+/* designing the E-mail form */
+.newsletter form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.newsletter form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #5654d1;
+  border-radius: 20px;
+  width: 168px;
+  height: 21px;
+  padding: 0 10px;
+}
+
+.newsletter form input {
+  background-color: transparent;
+  border: none;
+}
+
+.newsletter form button {
+  background: #ffffff;
+  box-shadow: 0px 4px 60px #0000000d;
+  border-radius: 30px;
+  width: 104px;
+  height: 41px;
+  color: #6663e9;
+}
+.newsletter form button:hover {
+  cursor: pointer;
+  background-color:#03021a ;
+}
+
+/* designing the footer section */
+footer {
+  margin: 0 40px;
+}
+footer div:first-child {
+  gap: 15px;
+}
+footer div:first-child img {
+  width: 75px;
+}
+
+footer div:first-child div img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+footer div:first-child p {
+  width: 123px;
+  font-weight: 200;
+  font-size: 10px;
+}
+/* designing the different pages links */
+.links {
+  gap: 50px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links ul li a {
+  color: #e6dada;
+}
+
+.footer-links ul li:first-child {
+  font-weight: 300;
+  font-size: 10px;
+}
+.footer-links ul li{
+  margin-bottom: 15px;
+}
+}

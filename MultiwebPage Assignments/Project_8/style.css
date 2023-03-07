@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    outline: 0;
+    font-family: "IBM Plex Sans", sans-serif,cursive;
+  }
+  body {
+    margin: auto;
+    max-width: 1440px;
+    overflow: hidden;
+    background-color: #f0f4f5;
+  }
+  /* ---Navbar--- */
+  nav {
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+  }
+  /*---Logo---*/
+  nav img {
+    margin-left: 10%;
+    width: 150px;
+  }
+  
+ /* designing the menus */
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+  }
+  nav ul li:hover {
+    background-color: #8e96cb;
+    transform: translateY(-5px);
+  }
+  
+  nav ul li:first-child {
+    font-weight: 600;
+    color: #20bc7e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  /* ----designing the Hero-section---- */
+  main {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+    justify-content:center;
+  }
+  main section {
+    width: 50%;
+  }
+  .left-section {
+    margin-top: 6%;
+    margin-left: 10%;
+    position: relative;
+  }
+  
+  .topangle {
+    width: 25px;
+  }
+  
+  .left-section h1 {
+    font-size: 60px;
+  }
+  
+  .left-section p {
+    margin: 18px 0;
+    color: #7c7c7c;
+    font-size: 14px;
+  }
+  .bottomangle {
+    /* margin-left: 50%; */
+    width: 25px;
+    position:absolute;
+    right: 10px;
+  }
+  
+  .stethoscope {
+    position: absolute;
+    width: 90%;
+    top: -40px;
+    right: -25%;
+    z-index: -1;
+  }
+  
+  .mouse {
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  .left-section button {
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 650;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 38px;
+    color: white;
+  }
+  .left-section button:hover {
+    cursor: pointer;
+    background-color: #ed8787;
+    color: #081356;
+  }
+  
+  /* designing the right section */
+  .greenBox,
+  .yellowBox {
+    position: absolute;
+    right: 0;
+  }
+  
+  .greenBox {
+    width: 30%;
+    bottom: 30px;
+  }
+  
+  .yellowBox {
+    width: 22%;
+    bottom: 50px;
+  }
+  .doctor {
+    height: 85%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+ 

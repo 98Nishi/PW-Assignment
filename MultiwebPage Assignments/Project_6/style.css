@@ -1,0 +1,498 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Poppins", sans-serif,cursive;
+  color: #ffffff;
+  box-sizing: border-box;
+  background: #0f0f10;
+}
+body {
+  margin: 0 15vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/*---designing the navbar---- */
+nav {
+  display: flex;
+  padding: 30px 0;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+nav img {
+  width: 25px;
+  height: 25px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 42px;
+}
+
+nav ul li a {
+  font-weight: 700;
+  font-size: 15px;
+  color: white;
+}
+
+nav ul li:first-child a{
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.nav-right-section {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right-section button {
+  background: #1e1e21;
+  border-radius: 9px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 10px 40px;
+}
+.nav-right-section button:hover {
+  background-color: #fff;
+  color: #000000;
+  cursor: pointer;
+}
+
+/*----signing the main section----*/
+main {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 30px;
+}
+
+.mainImg {
+  width: 230px;
+  top: -250px;
+  left: 70px;
+  position: relative;
+}
+
+.main {
+  margin-left: 182px;
+}
+
+.onEarImg {
+  width: 320px;
+  margin-left: 50px;
+}
+
+.main h1 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 45px;
+
+}
+
+.main h4 {
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  
+}
+
+.main p {
+  width: 65%;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #bdc0c2;
+  
+  
+}
+
+.shopping-bag {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.shopping-bag img {
+  width: 15px;
+  background-color: transparent;
+  
+}
+
+.shopping-bag p {
+  margin-bottom: 0;
+  color: white;
+  background-color: transparent;
+}
+
+.shopping-bag span {
+  background-color: transparent;
+}
+
+/*---designing the social media section--- */
+.social-media {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  position: relative;
+  margin-bottom: 40px;
+  top: -50px;
+  justify-content: space-around;
+}
+
+.social-media img {
+  cursor: pointer;
+  scale: 0.8;
+}
+
+
+/* designing the specification section */
+.specification {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.specs-logo,
+.case-logo {
+  scale: 0.8;
+  margin-bottom: 20px;
+}
+
+.specs-list {
+  display: flex;
+}
+
+.specs-list img {
+  scale: 0.8;
+}
+
+.specs-list-items div {
+  margin-bottom: 20px;
+}
+
+.specs-list-items div img {
+  scale: 0.8;
+}
+
+.specs-list-items div p {
+  font-size: 12px;
+}
+
+.specs-list-items div p:last-child {
+  color: #bdc0c2;
+  width: 70%;
+  font-size: 10px;
+  margin-top: 5px;
+  
+}
+
+.specs-list-items div:first-child,
+.specs-list-items div:last-child {
+  margin-left: 30px;
+}
+
+/*---designing the case section--- */
+.case {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.case-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.case-item-img {
+  scale: 0.8;
+  width: 40%;
+}
+
+.case-item div {
+  width: 20%;
+}
+
+.case-item div p:first-child {
+  color: #bdc0c2;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.case-item div p:last-child img {
+  scale: 0.8;
+  background-color: transparent;
+  
+}
+
+.case-item div p:last-child {
+  width: fit-content;
+  background: #1e1e21;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/*---section for buying products--- */
+.buy-product {
+  background: #181a1b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px 0;
+}
+
+.buy-product div,
+.buy-product h3,
+.buy-product img {
+  background-color: transparent;
+}
+.buy-product p {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.buy-product div {
+  width: 25%;
+}
+
+.buy-product div h3 {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+
+.buy-product div p {
+  color: #bdc0c2;
+  margin-bottom: 15px;
+  font-size: 14px;
+ 
+}
+
+.buy-product div div {
+  display: flex;
+  align-items: center;
+  background: #000000;
+  padding: 10px 20px;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.buy-product div div img {
+  scale: 0.8;
+  margin-right: 10px;
+}
+
+.buy-product div div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
+
+/*---- designing section for displaying the items ----*/
+.product {
+  display: flex;
+  flex-direction: column;
+  margin: 0 145px;
+  
+}
+
+.product-logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-logo {
+  scale: 0.3;
+}
+
+.product-items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-left: 50px;
+}
+
+.product-card {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  background: #181a1b;
+  border-radius: 8px;
+ 
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  background-color:#dbcece ;
+  cursor: pointer;
+}
+.product-info p {
+  color: #000000;
+}
+.product-img {
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  z-index: 100;
+  top: -40px;
+  left: 28px;
+  
+}
+
+.product-img,
+.product-card p,
+.product-card span,
+.product-card img,
+.product-card div {
+  background-color: transparent;
+}
+
+.product-info {
+  display: flex;
+  position: absolute;
+  padding: 10px 15px;
+  align-items: flex-end;
+  bottom: 0;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.product-info p {
+  font-size: 12px;
+}
+
+.product-info p span {
+  color: #bdc0c2;
+}
+
+.product-info div {
+  background: #0a0a0b;
+  border-radius: 8px;
+  padding: 2px 6px;
+}
+
+.product-info div img {
+  width: 13px;
+  height: 13px;
+}
+
+/* designing the footer section */
+footer{
+  display: flex;
+  align-items: flex-start;
+  margin: 100px 0;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-logo{
+  scale: 0.8;
+}
+
+/* ---navigation menu--- */
+ul li a{
+  font-size: 12px;
+  color: #BDC0C2;
+  cursor: pointer;
+}
+
+ul li:first-child a{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+ul li:first-child{
+  margin-bottom: 10px;
+}
+
+.subscription{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.subscription div:first-child{
+  background: #181A1B;
+border-radius: 8px;
+padding: 5px 10px;
+display: flex;
+}
+
+.subscription div:first-child input{
+  border: none;
+  background-color: transparent;
+}
+
+.subscribe-button{
+  background: #0A0A0B;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.subscribe-button:hover {
+  cursor: pointer;
+  background-color: #BDC0C2;
+
+}
+
+.subscribe-button img{
+  scale: 0.8;
+}
+
+.subscribe-button p{
+  font-size: 12px;
+}
+
+.subscription div:last-child img{
+  margin-right: 10px;
+  scale: 0.8;
+}
+
+.arrow-up{
+  position: absolute;
+  right: -160px;
+  scale: 0.8;
+}
+
+.icons:hover {
+  color: #ecdbdb;
+  transform: translateY(-5px);
+  cursor: pointer;
+}
